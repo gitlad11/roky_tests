@@ -1,0 +1,21 @@
+.profile{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.text{
+    margin: 6px;
+}
+.profile-avatar{
+    border-radius: 50%;
+    height: 84px;
+    width: 84px;
+    border: 1px solid gray;
+    overflow: hidden;
+    justify-content: center;
+    justify-items: center;
+}
+.button-back{
+    font-size: 32px;
+    color: #d8d8d8;
+}
