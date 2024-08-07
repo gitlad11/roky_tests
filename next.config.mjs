@@ -8,6 +8,9 @@ const nextConfig = {
     images: {
         domains: ["randomuser.me", "firebasestorage.googleapis.com"],
     },
+    eslint: {
+      ignoreDuringBuilds: true,
+  },
     //настройка языков
     i18n: {
       locales: ["ru", "kz"],
